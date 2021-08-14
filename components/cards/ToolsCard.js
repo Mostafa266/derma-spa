@@ -1,5 +1,5 @@
 import React from 'react'
-import woman from './../../assets/woman.png';
+import woman from './../../public/woman.png';
 import Image from 'next/image';
 
 export default function ToolsCard() {

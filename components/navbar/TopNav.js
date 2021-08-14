@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import hero from './../../assets/dermaWorld.png';
+import hero from './../../public/dermaWorld.png';
 
 export default function TopNav() {
     

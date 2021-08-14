@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import decoration from './../../assets/decoration.svg';
+import decoration from './../../public/decoration.svg';
 
 export default function FeatureCard() {
     return (

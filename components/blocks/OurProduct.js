@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
-import packshot from './../../assets/adtralza-packshot-gebau.png';
+import packshot from './../../public/adtralza-packshot-gebau.png';
+
 
 export default function OurProduct() {
     return (

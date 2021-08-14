@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import leo from './../../assets/leo.png';
+import leo from './../../public/leo.png';
 
 export default function Footer() {
     return (

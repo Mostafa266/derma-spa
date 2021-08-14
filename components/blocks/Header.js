@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
-import headerBG from './../../assets/headerBG.jpg';
-import adtralza_global from './../../assets/adtralza_global.png';
+import headerBG from './../../public/headerBG.jpg';
+import adtralza_global from './../../public/adtralza_global.png';
 
 export default function Header() {
     return (
