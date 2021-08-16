@@ -360,7 +360,9 @@
 
     }
     &--sub {
-        top: 4.2rem;
+        top: 3rem; 
+        opacity: 1;
+        display: flex;
         &--list {
             &--item {
                 &:hover {
