@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import hero from './../../public/dermaWorld.png';
+// import hero from './../../public/dermaWorld.png';
 
 export default function TopNav() {
     
@@ -16,7 +16,7 @@ export default function TopNav() {
         <div className="container">
             <div className="nav--top--content">
                 <div className="nav--top--logo">
-                    <Image src={hero}  alt='Derma world hero logo'/>
+                    {/* <Image src={hero}  alt='Derma world hero logo'/> */}
                     </div>
                     <div className="nav--top--right">
                         <div className="nav--top--group">
