@@ -1,8 +1,19 @@
-import React from 'react';
-import Image from 'next/image';
+import React,{useRef,useState} from 'react';
+
+
 
 
 export default function VideoIntro() {
+
+    const vidRef = useRef(null);
+    const [played, setPlay] = useState(false);
+
+    const handlePlay = _ =>{
+        const myVid = vidRef;
+        setPlay(!played)
+        played ? myVid.current.play() : myVid.current.pause()
+    }
+
     return (
         <section className="video--intro">
             <div className="container">
@@ -27,18 +38,15 @@ export default function VideoIntro() {
                                     <li>Improving markers of skin barrier integrity</li>
                                     <li>Reducing epidermal thickness</li>
                                 </ul>
+                                <button onClick={handlePlay} className="dr--primary-button" id="dr--primary-button" tabIndex="0">Watch the video</button>
                                 <span className="video-duration" id="video_duration_display">Duration 2:43</span>
                             </div>
                         </div>
                         <div className='col-12 col-lg-7'>
-                            <div className='video--intro--content--video'>
-                                {/* <video controls  className="home_video" id="home_video">
-                                    <source src="./../../assets/intro.mp4" type="video/mp4"/>
-                                    <source src="./../../assets/intro.webm" type="video/webm"/>
-                                </video> */}
-                                <video controls className="home_video" id="home_video">
-                                    <source src='/../../public/intro.mp4' type="video/mp4"/>
-                                    <source src="/../../public/intro.mp4" type="video/webm"/>
+                            <div className='video--intro--content--video' >
+                                <video controls  className="home_video" id="home_video" ref={vidRef}  >
+                                    <source src='intro.mp4' type="video/mp4"/>
+                                    <source src="intro.mp4" type="video/webm"/>
                                 </video> 
                             </div>
                         </div>

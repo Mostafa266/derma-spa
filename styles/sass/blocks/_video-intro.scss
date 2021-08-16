@@ -50,6 +50,7 @@
             min-height: 25rem;
             // min-width: 45rem;
             background-color: rgb(189, 189, 189);
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
             @include breakpoint(small){
                 margin: 0;
             }

@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
 import decoration from './../../public/decoration.svg';
-import lifeGaurd from './../../public/lifeGaurd.svg';
 
 export default function FeatureCard(props) {
     return (
@@ -11,9 +10,9 @@ export default function FeatureCard(props) {
                     {
                          props.textCard === false? <Image src={props.decorationImg} alt='decoration image'/> :  <>
                          <span className="current--number current--number-blue">
-                             {
-                                 props.textCard ? props.totalNumber : null
-                             }
+                            {
+                                props.textCard ? props.totalNumber : null
+                            }
                          </span>
                          <span className="current--number--sub">
                              {props.outNumber ? `out of ${props.outNumber}` : console.log('no')}
