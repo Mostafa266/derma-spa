@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import heroBG from './../../public/dermaWorld.png';
+import heroBG from './../../public/DermaWorld.png';
 
 export default function TopNav() {
     const handleSide = () =>{
