@@ -1,22 +1,19 @@
 import React from 'react'
 import Image from 'next/image'
-// import hero from './../../public/dermaWorld.png';
+import heroBG from './../../public/dermaWorld.png';
 
 export default function TopNav() {
-    
-
     const handleSide = () =>{
         nav.classList.toggle('nav-sideIsOpen')
         nav.classList.toggle('active')
     }
-  
-    return ( <>
-    
+    return ( 
+    <>
      <div className="nav nav--top">
         <div className="container">
             <div className="nav--top--content">
                 <div className="nav--top--logo">
-                    {/* <Image src={hero}  alt='Derma world hero logo'/> */}
+                    <Image src={heroBG}  alt='Derma world hero logo'/>
                     </div>
                     <div className="nav--top--right">
                         <div className="nav--top--group">
