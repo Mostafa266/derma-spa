@@ -9,7 +9,7 @@
 
 
 
-# AKQA-Derma
+# AKQA-Derma - SPA
 
 Akqa-Derma is a SPA website build for AKQA 
 developed by Mostafa Abdelazeem
