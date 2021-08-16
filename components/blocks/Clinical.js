@@ -12,10 +12,11 @@ export default function Clinical() {
                 <div className="clinical--tools--cards--container">
                     <div className="row">
                         <div className="col-12 col-md-6">
-                            <ToolsCard/>
+                            <ToolsCard title='Dosing guide' desc='Adtralza® has a straightforward dosing regimen, with 150 mg prefilled syringes(1).' link='Learn more about application and dosing'/>
                         </div>
                         <div className="col-12 col-md-6">
-                            <ToolsCard/>
+                        <ToolsCard title='Patient injection made simple' desc='AThis step by step video guide shows the patient how to self inject using the two syringes that come in the Adtralza® carton.' link='Watch the video'/>
+
                         </div>
                     </div>
                 </div>

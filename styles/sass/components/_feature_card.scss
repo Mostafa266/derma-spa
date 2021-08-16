@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: flex-start;
     padding: 1rem;
+   
     &--header{
         width: 11.25rem;
         height: 11.25rem;
@@ -28,11 +29,9 @@
             z-index: -1;
             right: -1.7rem;
         }
-        svg{
-            width: 7rem;
-        }
+      
         img{
-            width: 10rem;
+            width: 7rem;
         }
         .current--number{
             font-size: 5rem;
@@ -48,6 +47,7 @@
                 color: $blue;
             }
         }
+     
     }
     &--body{
         padding: 0 1rem;

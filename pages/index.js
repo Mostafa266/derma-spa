@@ -16,7 +16,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Derma</title>
         <meta name="description" content="Derma Site Build By Mostafa Abd Elazeem"/>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="./../imgs/public/leo.png"></link>
       </Head>
         
       

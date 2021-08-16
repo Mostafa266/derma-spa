@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+
 
 export default function VideoIntro() {
     return (
@@ -34,6 +36,10 @@ export default function VideoIntro() {
                                     <source src="./../../assets/intro.mp4" type="video/mp4"/>
                                     <source src="./../../assets/intro.webm" type="video/webm"/>
                                 </video> */}
+                                <video controls className="home_video" id="home_video">
+                                    <source src='/../../public/intro.mp4' type="video/mp4"/>
+                                    <source src="/../../public/intro.mp4" type="video/webm"/>
+                                </video> 
                             </div>
                         </div>
                     </div>
